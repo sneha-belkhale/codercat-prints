@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.4",
-    "express-ws": "^3.0.0"
+    "express-ws": "^3.0.0",
+    "node-pty": "^0.4.1"
   }
 }
