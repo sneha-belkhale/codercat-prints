@@ -133,7 +133,7 @@ function runFakeTerminal() {
   term.writeln('\033[0;37m \\_______/ \\______/  \\_______/ \\_______/|__/             \\_______/ \\_______/   \\___/\033[0m\n')
 
   term.writeln('Welcome to the coder cat prints terminal!');
-  term.writeln('We mix \033[0;93mtechnology\033[0m, \033[0;36mfashion\033[0m, and \033[0;93mfeminism\033[0m to create a unique genre of graphic products as a platform of social awareness and community')
+  term.writeln('We mix \033[0;34mtechnology\033[0m, \033[0;36mfashion\033[0m, and \033[0;93mfeminism\033[0m to create a unique genre of graphic products as a platform of social awareness and community')
   // term.writeln('We mix technology, fashion, and feminism to create a unique genre of products, as a platform of social awareness and building a community of the coolest coder cats.\n');
   // term.writeln('We create original coder cat slogans, and print them onto tees, mugs, stickers, notebooks, etc. using redbubble for hosting and ease of production.');
   // term.writeln('Use the coder cat prints terminal to:');
@@ -155,8 +155,8 @@ function runFakeTerminal() {
   term.writeln('-----> redirecting you to a magical place ----->\n')
 
   term.writeln('\033[0;93m----------------------------------------------------------------------\033[0m\n')
-  term.writeln('You can type\033[0;93m "help"\033[0m and hit enter to see all coder cat commands.');
-  term.writeln('\033[0;95mFYI: site supports discrete procrastination habits\033[0m');
+  term.writeln('You can type \033[0;93mhelp\033[0m and hit enter to see all coder cat commands.');
+  term.writeln('FYI: site supports discrete procrastination habits');
   term.writeln('');
   term.prompt();
 
@@ -182,19 +182,20 @@ function runFakeTerminal() {
               }
       else if (command == "help"){
         term.writeln('');
-        term.writeln('ls\t\tlist available executable codercat slogans');
-        term.writeln('view <#>\tredirect to view desired slogan');
-        term.writeln('about\t\twho/what/when/why/where is a codercat');
-        term.writeln('contact\t\tcontact a codercat today');
-        term.writeln('clear\t\tclear command history\n');
+        term.writeln('\033[0;93mls\033[0m\t\tlist available executable codercat slogans');
+        term.writeln('\033[0;93mview <#>\033[0m\tredirect to view desired slogan');
+        term.writeln('\033[0;93mabout\033[0m\t\twho/what/when/why/where is a codercat');
+        term.writeln('\033[0;93mcontact\033[0m\t\tcontact a codercat today');
+        term.writeln('\033[0;93mclear\033[0m\t\tclear command history\n');
         term.writeln('type a command and hit enter!');
         }
 
       else if (command =="whois codercat" || command =="about") {
         term.writeln('');
-        term.writeln('We mix technology, fashion, and feminism to create a unique genre of products, as a platform of social awareness and building a community of the coolest coder cats. all products are currently hosted on redbubble for ease of production, billing, and shipping');
-        term.writeln('Check out the store @ https://www.redbubble.com/people/kif11/works/')
-        term.writeln('Creator: Elder Snayz @snayss @snehabelkhale.wordpress.com @codercat.club');
+        term.writeln('We mix \033[0;34mtechnology\033[0m, \033[0;36mfashion\033[0m, and \033[0;93mfeminism\033[0m to create a unique genre of graphic products as a platform of social awareness and building a community of the coolest coder cats.')
+        term.writeln('All products are currently hosted on redbubble for ease of production, billing, and shipping.\n');
+        term.writeln('Check out the rebubble store @ \033[0;34mhttps://www.redbubble.com/people/kif11/works/\033[0m')
+        term.writeln('And other codercat projects @ \033[0;34mhttps://codercat.club\033[0m');
         }
       else if (command == "view 0"){
         term.writeln('');
